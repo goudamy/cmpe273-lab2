@@ -1,19 +1,11 @@
 var connect = require('connect');
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 8e63c90e4f9cd8d360073146417e7a012066d045
 var http = require('http');
 var login = require('./login');
 var util = require('util');
 var bodyParser  = require('body-parser');
-<<<<<<< HEAD
-=======
-=======
+
 var login = require('./login');
 
->>>>>>> 337ade49c74f93e4e4ca1de7d9961b67cd61ede7
->>>>>>> 8e63c90e4f9cd8d360073146417e7a012066d045
 var app = connect();
 
 app.use(connect.json()); // Parse JSON request body into `request.body`
@@ -49,10 +41,7 @@ function get(request, response) {
 };
 
 function post(request, response) {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 8e63c90e4f9cd8d360073146417e7a012066d045
+
  var email =request.body.email;
 
  var name =request.body.name;
@@ -81,7 +70,7 @@ function del(request, response) {
 
   	response.end('Logged out from the server\n');
   }
-<<<<<<< HEAD
+
 =======
 =======
 	// TODO: read 'name and email from the request.body'
@@ -98,16 +87,12 @@ function del(request, response) {
  	// No need to set session id in the response cookies since you just logged out!
 
   	response.end('Logged out from the server\n');
->>>>>>> 337ade49c74f93e4e4ca1de7d9961b67cd61ede7
->>>>>>> 8e63c90e4f9cd8d360073146417e7a012066d045
+
 };
 
 function put(request, response) {
 	console.log("PUT:: Re-generate new seesion_id for the same user");
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 8e63c90e4f9cd8d360073146417e7a012066d045
+
 
 	// TODO: refresh session id; similar to the post() function
 	var cookies = request.cookies;
@@ -128,16 +113,14 @@ function put(request, response) {
 
 
 app.listen(8000,'127.0.0.1');
-<<<<<<< HEAD
-=======
-=======
+
+
 	// TODO: refresh session id; similar to the post() function
 
 	response.end("Re-freshed session id\n");
 };
 
 app.listen(8000);
->>>>>>> 337ade49c74f93e4e4ca1de7d9961b67cd61ede7
->>>>>>> 8e63c90e4f9cd8d360073146417e7a012066d045
+
 
 console.log("Node.JS server running at 8000...");
