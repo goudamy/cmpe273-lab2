@@ -12,15 +12,36 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "https://github.com/goudamy/cmpe273_lab2.git"
+=======
+<<<<<<< HEAD
+    "url": "https://github.com/goudamy/cmpe273_lab2.git"
+=======
+    "url": "https://github.com/sithu/cmpe273-lab2"
+>>>>>>> 337ade49c74f93e4e4ca1de7d9961b67cd61ede7
+>>>>>>> 8e63c90e4f9cd8d360073146417e7a012066d045
   },
   "keywords": [
     "nodejs",
     "connect"
   ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8e63c90e4f9cd8d360073146417e7a012066d045
   "author": "Goudamy",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/goudamy/cmpe273_lab2.git"
+<<<<<<< HEAD
+=======
+=======
+  "author": "Sithu Aung",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/sithu/cmpe273-lab2/issues"
+>>>>>>> 337ade49c74f93e4e4ca1de7d9961b67cd61ede7
+>>>>>>> 8e63c90e4f9cd8d360073146417e7a012066d045
   }
 }
