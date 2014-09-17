@@ -12,15 +12,26 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "https://github.com/goudamy/cmpe273_lab2.git"
+=======
+    "url": "https://github.com/sithu/cmpe273-lab2"
+>>>>>>> 337ade49c74f93e4e4ca1de7d9961b67cd61ede7
   },
   "keywords": [
     "nodejs",
     "connect"
   ],
+<<<<<<< HEAD
   "author": "Goudamy",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/goudamy/cmpe273_lab2.git"
+=======
+  "author": "Sithu Aung",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/sithu/cmpe273-lab2/issues"
+>>>>>>> 337ade49c74f93e4e4ca1de7d9961b67cd61ede7
   }
 }

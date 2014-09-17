@@ -19,10 +19,14 @@ Login.prototype.hello = function(sessionId) {
  * Check whether the given session id is valid (is in sessionMap) or not.
  */
 Login.prototype.isLoggedIn = function(sessionId) {
+<<<<<<< HEAD
 	console.log(sessionId);
 	console.log(this.sessionMap);
 	return sessionId in this.sessionMap;
 
+=======
+	return sessionId in this.sessionMap;
+>>>>>>> 337ade49c74f93e4e4ca1de7d9961b67cd61ede7
 };
 
 /**
@@ -48,6 +52,7 @@ Login.prototype.logout = function(sessionId) {
    /*
 	* TODO: Remove the given sessionId from the sessionMap
 	*/
+<<<<<<< HEAD
     delete this.sessionMap[sessionId];
 };
 
@@ -63,6 +68,8 @@ Login.prototype.refresh = function(sessionId){
 
 	console.log('refresh');
  
+=======
+>>>>>>> 337ade49c74f93e4e4ca1de7d9961b67cd61ede7
 };
 
 // Export the Login class
